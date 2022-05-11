@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-hello
 data:
-  hello: {{ .Values.hello }}
+  hello: {{ .Values.hello }}-v2
